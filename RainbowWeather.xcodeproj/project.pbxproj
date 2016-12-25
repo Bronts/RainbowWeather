@@ -13,6 +13,7 @@
 		DF6588371E0F898100E22E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6588351E0F898100E22E74 /* Main.storyboard */; };
 		DF6588391E0F898100E22E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6588381E0F898100E22E74 /* Assets.xcassets */; };
 		DF65883C1E0F898100E22E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF65883A1E0F898100E22E74 /* LaunchScreen.storyboard */; };
+		DF65884C1E1024DB00E22E74 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65884B1E1024DB00E22E74 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		DF6588381E0F898100E22E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		DF65883B1E0F898100E22E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF65883D1E0F898100E22E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		DF65884B1E1024DB00E22E74 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E052FAC0F868ACC013D67548 /* Pods-RainbowWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainbowWeather/Pods-RainbowWeather.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 		DF6588481E0F8A2000E22E74 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DF65884B1E1024DB00E22E74 /* TableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF65884C1E1024DB00E22E74 /* TableViewCell.swift in Sources */,
 				DF6588341E0F898100E22E74 /* MainViewController.swift in Sources */,
 				DF6588321E0F898100E22E74 /* AppDelegate.swift in Sources */,
 			);
